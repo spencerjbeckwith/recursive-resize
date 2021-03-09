@@ -1,0 +1,26 @@
+{
+  "name": "recursive-resize",
+  "version": "1.0.0",
+  "description": "Resize a full directory of images to a certain percentage and generate thumbnails",
+  "preferGlobal": true,
+  "main": "./lib/recres.js",
+  "bin": {
+    "recursive-resize": "./bin/index.js",
+    "recres": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "image",
+    "png",
+    "jpg",
+    "resize",
+    "recursive"
+  ],
+  "author": "Spencer Beckwith",
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.27.2"
+  }
+}
