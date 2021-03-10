@@ -8,8 +8,6 @@ To install, use `npm install -g recursive-resize`
 
 To run, you use `recursive-resize` (or if that's too many letters, you can use `recres` instead.)
 
-===
-
 ## CLI Options
 
 * `-i, --input`: Defines the input directory. Every .png, .jpg, and .jpeg file within the directory will be resized. Can
@@ -22,8 +20,6 @@ To run, you use `recursive-resize` (or if that's too many letters, you can use `
 * `-h, --help`: Shows these options.
 
 If you want to overwrite your input directory with your output, you can use `./` as both the `-i` and `-o` arguments. You probably *shouldn't* do this though. And you also probably *shouldn't* use an output directory as an input directory.
-
-===
 
 ## Examples
 

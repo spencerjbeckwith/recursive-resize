@@ -1,10 +1,10 @@
 {
   "name": "recursive-resize",
-  "version": "0.0.1",
-  "description": "Resize a full directory of images to a certain percentage and generate thumbnails",
+  "version": "0.0.2",
+  "description": "Resize a full directory of images and generate thumbnails",
   "preferGlobal": true,
   "type": "module",
-  "main": "./lib/recres.js",
+  "main": "./bin/index.js",
   "bin": {
     "recursive-resize": "./bin/index.js",
     "recres": "./bin/index.js"
